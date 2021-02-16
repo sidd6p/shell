@@ -1,5 +1,5 @@
 #run in bash script
-echo "Enter two number"
+echo "Enter a number"
 read a
 if [ $a -gt 0 ]
 then
