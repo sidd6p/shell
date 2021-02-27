@@ -1,3 +1,6 @@
+#author siddhartha purwar
+#date: 27-feb-2021
+
 echo "Enter the number of lines"
 read nums1
 echo -e "\n"
@@ -10,6 +13,7 @@ do
   for (( j = i; $j < (( 3*$i - 1 )); j++))
   do
     d=$(echo "sqrt(( (2*$i) - 1 - $j)^2 )" | bc)
+    #d is for using the absolute value
     echo -n -e "$(( 2*$i - 1 - $d))\t"
   done
   echo -e "\n"
