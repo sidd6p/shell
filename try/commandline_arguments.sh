@@ -1,4 +1,4 @@
-# $* is same as $@
+echo $(( sqrt(($i-1-$j)^2)) ))# $* is same as $@
 # $# he command line argument passed
 # $0 NAme of the bash script
 echo "the number of command line argument pass is $#"
