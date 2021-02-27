@@ -1,4 +1,4 @@
-echo $(( sqrt(($i-1-$j)^2)) ))# $* is same as $@
+# $* is same as $@
 # $# he command line argument passed
 # $0 NAme of the bash script
 echo "the number of command line argument pass is $#"
@@ -8,3 +8,4 @@ for arg in $*
 do
   echo $arg
 done
+echo "First argument is $1"
