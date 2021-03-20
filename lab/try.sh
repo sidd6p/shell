@@ -14,7 +14,7 @@ else
 	if [ $b -gt $c ]
 	then
 		echo "$b is greatest"
-	else echo "$c is greatest"
+	else
+		 echo "$c is greatest"
 	fi
 fi
-

@@ -6,7 +6,7 @@ case $choice in
 		then
 			echo "cpoy successfull"
 		else
-			echo "COpy failed"
+			echo "Copy failed"
 		fi
 		;;
 	2)
