@@ -4,9 +4,9 @@ echo "Enter destination file name"
 read destination_file
 com=$(cp source_file destination_file)
 if cp source_file destination_file
-then    
+then
         echo "Copy task fail fail"
-	echo $com
+        echo $com
 else
         echo "Copt task success"
-fi	                                                                                 
+fi
