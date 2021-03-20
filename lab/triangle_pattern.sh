@@ -8,7 +8,7 @@ for(( i=1; i<=num; i++ ))
 do
   for(( j=1; j<=i; j++))
   do
-    echo -n "$n "
+    echo -e -n "$n\t "
     ((n++))
   done
   echo -e " \n "

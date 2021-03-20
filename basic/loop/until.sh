@@ -9,3 +9,4 @@ do
   i=$((i + 1)) #doubt
 done
 echo "Sum of first $num natural numbers is $sum"
+read a

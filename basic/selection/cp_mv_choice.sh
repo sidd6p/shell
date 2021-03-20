@@ -25,3 +25,4 @@ case $choice in
   ;;
 #it is not necessary to put ;; in the *) case
 esac
+read a

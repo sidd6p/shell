@@ -6,6 +6,7 @@ name[0]="Siddhartha"
 name[1]="Purwar"
 last_name=(purwar, gupta)
 echo "Full name is ${name[0]} ${name[1]}"
+echo "Full name is ${name[0]}"
 echo "Full name is ${name[*]}"
 echo "Full name is ${name[@]}"
 echo "last name is ${last_name[1]}"

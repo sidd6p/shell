@@ -1,6 +1,8 @@
 #Author: Siddhartha Purwar[19BBS0072]
 #23feb2021 special_lab
 #triangular_numer_check
+#Triangular Numbers are those numbers which are obtained by continued summation of the natural numbers 1, 2, 3, 4, 5, etc.
+#Triangular Number Example: 15 is Triangular Number because it can be obtained by 1+2+3+4+5+6 i.e. 1+2+3+4+5+6=15
 echo "Enter an integer"
 read num
 sum=0
