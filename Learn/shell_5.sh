@@ -1,8 +1,8 @@
 #!/bin/bash
 
-declare -r var1=1
-echo "var1 = $var1" 
-(( var1++ )) # var1: readonly variable
+declare -r var0=1 # var1 is readonly
+echo "var0 = $var0" 
+#(( var1++ )) # var1: readonly variable
 
 declare -i number
 # The script will treat subsequent occurrences of "number" as an integer.		
@@ -23,7 +23,7 @@ var1=var1+1       # Integer declaration eliminates the need for 'let'.
 echo "var1 incremented by 1 is $var1."
 # Attempt to change variable declared as integer.
 echo "Attempting to change var1 to floating point value, 2367.1."
-var1=2367.1       # Results in error message, with no change to variable.
+#var1=2367.1       # Results in error message, with no change to variable because var1 is set to be an integer above
 echo "var1 is still $var1"
 
 declare -a indices
@@ -36,6 +36,7 @@ func1 ()
 {
   echo This is a function.
 }
+echo "Below line will display the above function"
 declare -f        # Lists the function above.
 
 declare -x var3=373

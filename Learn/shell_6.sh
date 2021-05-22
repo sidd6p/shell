@@ -53,8 +53,10 @@ echo pwd # --> pwd
 echo 'pwd' # --> pwd
 echo "pwd"  # --> pwd
 # echo variable BASH_VAR
-echo $BASH_VAR
+echo $BASH_VAR # --> Bash Script
 echo $'$BASH_VAR\nok'
+ #--> $BASH_VAR 
+ #-->"ok" 
 echo 'a\nb' #--> a\nb
 echo $'a\nb'
 # --> a

@@ -3,13 +3,23 @@
 
 pwd
 
+#assignment operator
+#for assigning value we donnot use $ and for accesss the value we use $
+a=10
+#$a=10 #10=10: command not found
+b=a # --> b = a
+#b = $a # --> b: command not found, no space areound operator
+b=$a
+echo $a
+echo $b
+
 
 echo "Hello what is yout name!"
 read name
 readonly name
 #name is read only, henec its value cannot be changed.
 echo "It nice to meet you, $name"
-name="sarthak"
+#name="sarthak"
 #name = "sarthak" is wrong
 echo "It nice to meet you, $name"
 #unset name

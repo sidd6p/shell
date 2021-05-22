@@ -1,8 +1,8 @@
 #!/bin/sh
 
 declare -a indices
-indices=([0]="purple" [1]="reddish-orange" [2]="light green")
-for((i=0; i < ${#indices[@]}; i++))
+indices=("purple", "reddish-orange", "light green")
+for((i=0; i < ${#indices[*]}; i++))
 do
 echo ${indices[${i}]}
 done

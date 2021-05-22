@@ -1,3 +1,4 @@
+#!/bin/bash
 for user in `who | awk '{print $1}'`
 do
   echo "$user ..........."
@@ -15,3 +16,15 @@ for i in $array
 do
         echo $i
 done
+
+
+
+#Command substitution
+# use backticks " ` ` " to execute shell command
+echo "Username is " `uname -o` #--> Msys
+# executing bash command without backticks
+echo "Username is " uname -o # --> uname -o
+# $ "$( )"is also use to execute shell command
+echo "Username is " $(uname -o) #--> Msys
+
+
