@@ -4,6 +4,7 @@ do
   echo "$user ..........."
   write $user
 done
+echo "Writing to user is done"
 
 
 echo "Something new"
